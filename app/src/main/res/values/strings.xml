@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AndroidLearningApp</string>
+    <string name="button">Button</string>
+    <string name="enter_you_name">Enter you name</string>
+    <string name="click_me">Click Me!</string>
+    <string name="this_is_an_image_of_learning_android">this is an image of learning android</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="say_hello">Say Hello!</string>
+    <string name="welcome_to_greetings_app">Welcome to Greetings App</string>
+    <string name="welcome_to_counter_page">Welcome to Counter Page</string>
+    <string name="increase_counter">Increase Counter</string>
+    <string name="enter_your_weight_in_kilos">Enter your weight in kilos</string>
+    <string name="convert_kilos_to_pound">Convert Kilos to pound</string>
+    <string name="hello_linear_layout">Hello Linear layout</string>
+</resources>

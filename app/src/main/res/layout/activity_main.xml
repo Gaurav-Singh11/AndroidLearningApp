@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!--    <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#FFEB3B"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Hello My Friends"
+            android:textAllCaps="true"
+            android:textColor="#673AB7"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            tools:ignore="HardcodedText"
+            tools:layout_editor_absoluteX="20dp" />-->
+    <!--    <EditText
+            android:id="@+id/myEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_you_name"
+            android:inputType="text"
+            android:maxLength="120"
+            android:textColor="#5D7BA4"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_editor_absoluteX="16dp"
+            app:layout_editor_absoluteY="140dp" />-->
+    <!-- <Button
+        android:id="@+id/myButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/click_me"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:padding="30dp"
+        android:layout_margin="40dp"
+        />-->
+    <!--<ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/messenger"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/this_is_an_image_of_learning_android"
+        tools:ignore="MissingConstraints" />-->
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="285dp"
+        android:autofillHints=""
+        android:hint="@string/enter_your_name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="415dp"
+        android:text="@string/say_hello"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:text="@string/welcome_to_greetings_app"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
